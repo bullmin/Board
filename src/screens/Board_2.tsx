@@ -1,7 +1,7 @@
 import React from 'react'
 import {Table, Button} from 'react-bootstrap'
 
-const Board = () => {
+const Board_2 = () => {
   return (
     <div>
       <Table striped bordered hover>
@@ -44,8 +44,11 @@ const Board = () => {
         </tr>
       </tbody>
     </Table>
+    <Button variant='info'>Write</Button>
+    <Button variant='secondory'>Edit</Button>
+    <Button variant='danger'>Delete</Button>
     </div>
   )
 }
 
-export default Board
+export default Board_2

@@ -8,6 +8,14 @@ const Sign_Up = () => {
       <h1>Sign Up</h1>
       <Container>
         <Form>
+
+        <Form.Group as={Row} className='mb-3' controlId='formBasicName'>
+          <FloatingLabel controlId='floatingInput' label='Name' className='mb-3'>
+            <Form.Control type='name' placeholder='Name' />
+          </FloatingLabel>
+          </Form.Group>
+
+
         <Form.Group as={Row} className='mb-3' controlId='formBasicId'>
           <FloatingLabel controlId='floatingInput' label='ID' className='mb-3'>
             <Form.Control type='id' placeholder='Id' />
